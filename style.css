@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all 1s ease-in-out;
+}
+.nav {
+  height: 12vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+body {
+  transition: all 1s ease-out;
+  overflow-x: hidden;
+}
+
+.resnav-btn {
+  display: none;
+}
+.top-menu {
+  width: 55vw;
+  font-family: "Karla", sans-serif;
+  font-weight: lighter;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.top-menu a {
+  text-decoration: none;
+  color: hsl(256, 26%, 20%);
+}
+.logo {
+  width: 30vw;
+}
+.main{
+    display: block;
+}
+.top-menu button {
+  background-color: transparent;
+  height: 40px;
+  width: 150px;
+  transition: all 1s ease-out;
+}
+.top-menu button:hover {
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+}
+
+.top-about {
+  height: 70vh;
+  width: 100vw;
+  background-color: hsl(256, 26%, 20%);
+
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  border: 0;
+
+  width: 10vw;
+  background-color: white;
+  height: 2px;
+}
+.top-about-contents {
+  width: 50vw;
+  padding-left: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  color: white;
+
+  height: 80%;
+}
+.top-about-contents h1 {
+  font-size: 60px;
+  font-family: "DM Serif Display", serif;
+  line-height: 60px;
+  font-weight: lighter;
+}
+
+.top-about-contents p {
+  font-family: "Karla", sans-serif;
+  font-weight: lighter;
+}
+.none {
+  width: 50vw;
+  height: 100%;
+}
+
+.viewplansbtn button {
+  background: transparent;
+  height: 40px;
+  width: 150px;
+  transition: all 1s ease-out;
+  color: white;
+  border: 1px solid white;
+}
+
+.mobile-img {
+  display: none;
+}
+
+.desk-img {
+  position: absolute;
+  left: 60vw;
+  top: 20vh;
+  width: 30vw;
+}
+
+.main-flex-container {
+  width: 80vw;
+  height: 140vh;
+  margin-top: 30vh;
+  
+  position: relative;
+  left: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.different-div {
+  height: 20vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+.different-div h1 {
+  font-size: 60px;
+  font-family: "DM Serif Display", serif;
+  font-weight: lighter;
+}
+
+.features {
+  display: flex;
+
+  width: 100%;
+  height: 40%;
+  justify-content: space-between;
+}
+
+.snappy {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.affordable {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.people {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.findout-more {
+  height: 30vh;
+  width: 100%;
+  background-color: hsl(256, 26%, 20%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.hww {
+  position: absolute;
+  height: 30vh;
+  left: 69%;
+}
+
+.findout-more-sub {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+
+  margin-left: auto;
+}
+.findout-more-sub h1 {
+  color: white;
+  font-family: "DM Serif Display", serif;
+}
+
+.how-we-work {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+
+.how-we-work button {
+  background: transparent;
+  height: 40px;
+  width: 150px;
+  transition: all 1s ease-out;
+  color: white;
+  border: 1px solid white;
+}
+
+.hwwm{
+    display: none;
+}
+
+footer{
+ 
+    background-image: url("./images/bg-pattern-footer-desktop.svg");
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    font-family: 'Karla', sans-serif;
+}
+.foot-hr{
+    width: 100%;
+}
+.footer-content{
+   
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.foot-logo-icon{
+   
+    width: 20%;
+    text-align: center;
+}
+.logos-icons{
+    display: flex;
+   
+    
+
+}
+.social-icons{
+ 
+    
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   margin-left: auto;
+}
+
+
+.end{
+    height: 60%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.item{
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: space-around;
+    
+
+}
+
+.item div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+   
+}
+.endlinks{
+    height: 70%;
+}
+
+.endlinks a{
+    text-decoration: none;
+    color: hsl(256, 26%, 20%);
+}
+.endlinks :hover{
+    text-decoration: underline;
+}
+.others{
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width: 768px) {
+  .top-menu {
+    display: none;
+  }
+  .resnav-btn {
+    display: block;
+  }
+  .logo {
+    width: 50vw;
+  }
+  .none {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+  .top-about-contents {
+    width: 100vw;
+    text-align: center;
+    padding-left: 0;
+    align-items: center;
+  }
+  .mobile-img {
+    display: block;
+    width: 100vw;
+  }
+
+  .desk-img {
+    display: none;
+  }
+
+  .main-flex-container {
+    height: 210vh;
+  }
+  .different-div {
+    text-align: center;
+  }
+
+  .different-div h1 {
+    font-size: 50px;
+  }
+
+  .features {
+    flex-direction: column;
+    height: 130vh;
+  }
+
+  .snappy {
+    width: 100%;
+    text-align: center;
+  }
+  .affordable {
+    width: 100%;
+    text-align: center;
+  }
+  .people {
+    width: 100%;
+    text-align: center;
+  }
+  .hww {
+    display: none;
+  }
+  .findout-more {
+    flex-direction: column;
+    margin-left: 0;
+
+    height: 40vh;
+  }
+  .findout-more-sub {
+    margin-left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .findout-more-sub h1 {
+    font-size: 40px;
+  }
+
+  .how-we-work {
+    margin-left: 0;
+    width: 100%;
+  }
+ .hwwm{
+    display: block;
+    position: absolute;
+    left: 40vw;
+    
+ } 
+footer{
+    height: 180vh;
+}
+
+.footer-content{
+height: 89%;
+}
+
+
+.logos-icons{
+    flex-direction: column;
+    align-items: center;
+    height: 5%;
+    justify-content: space-between;
+    
+}
+
+.foot-logo-icon{
+    width: 100%;
+}
+.social-icons{
+    margin-left: 0;
+    width: 50%;
+    
+}
+.end{
+flex-direction: column;
+text-align: center;
+width: 100%;
+}
+
+.item{
+    height: 20%;
+}
+}

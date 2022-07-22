@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+    <title>Insure landing page</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+
+
+.hamenu{
+  display: none;
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+  .hamenu{
+    
+   
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    position: absolute;
+    background-color: hsl(256, 26%, 20%);
+    top: 10vh;
+    transition: all 1s ease-in-out;
+   
+
+  }
+
+  .hamenu-contents{
+    width: 100vw;
+    
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    
+  }
+  .hamenu-contents p {
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: xx-large;
+  }
+  .hamenu-contents button{
+    background-color: transparent;
+  height: 8vh;
+  width: 90vw;
+  color: azure;
+font-size: x-large;
+border: 1px solid white;
+  }
+}
+    </style>
+  </head>
+  <body>
+
+<div class="hamenu" style="transform: translateX(100%);">
+<div class="hamenu-contents">
+  <p>HOW WE WORK</p>
+<P>BLOG</P>
+<P>ACCOUNT</P>
+<button>VIEW PLANS</button>
+</div>
+
+</div>
+
+    <div class="nav">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="logo" />
+      </div>
+
+      <div class="top-menu">
+        <a href="#">HOW WE WORK</a>
+        <a href="#">BLOG</a>
+        <a href="#">ACCOUNT</a>
+        <button>VIEW PLANS</button>
+      </div>
+
+      <div class="resnav-btn">
+        <img src="./images/icon-hamburger.svg" alt="resnavbtn" onclick="hamburger()" class="resnavbtn" />
+      </div>
+    </div>
+    <img
+      src="./images/image-intro-mobile.jpg"
+      alt="mobileimg"
+      class="mobile-img"
+    />
+
+    <img
+      src="./images/image-intro-desktop.jpg"
+      alt="deskimg"
+      class="desk-img"
+    />
+
+    <div class="main">
+      <div class="top-about">
+        <div class="top-about-contents">
+          <div><hr /></div>
+
+          <div class="top-about-title">
+            <h1>Humanizing your insurance.</h1>
+          </div>
+
+          <div class="top-about-pata">
+            <p>
+              Get your life insurance coverage easier and faster. We blend our
+              expertise and technology to help you find the plan that’s right
+              for you. Ensure you and your loved ones are protected.
+            </p>
+          </div>
+
+          <div class="viewplansbtn">
+            <button>VIEW PLANS</button>
+          </div>
+        </div>
+        <div class="none"></div>
+      </div>
+      <div class="main-flex-container">
+        <div class="different-div">
+          <hr class="differ-hr" />
+          <h1>We’re different</h1>
+        </div>
+
+        <div class="features">
+          <div class="snappy">
+            <div><img src="./images/icon-snappy-process.svg" alt="snap" /></div>
+
+            <h1>Snappy Process</h1>
+
+            <p>
+              Our application process can be completed in minutes, not hours.
+              Don’t get stuck filling in tedious forms.
+            </p>
+          </div>
+          <div class="affordable">
+            <div>
+              <img src="./images/icon-affordable-prices.svg" alt="snap" />
+            </div>
+
+            <h1>Affordable Prices</h1>
+
+            <p>
+              We don’t want you worrying about high monthly costs. Our prices
+              may be low, but we still offer the best coverage possible.
+            </p>
+          </div>
+          <div class="people">
+            <div><img src="./images/icon-people-first.svg" alt="snap" /></div>
+
+            <h1>People First</h1>
+
+            <p>
+              Our plans aren’t full of conditions and clauses to prevent
+              payouts. We make sure you’re covered when you need it.
+            </p>
+          </div>
+        </div>
+
+        <div class="findout-more">
+          <img
+            src="./images/bg-pattern-how-we-work-desktop.svg"
+            alt="hww"
+            class="hww"
+          />
+          <img
+          src="./images/bg-pattern-how-we-work-mobile.svg"
+          alt="hww"
+          class="hwwm"
+        />
+          <div class="findout-more-sub">
+            <h1>Find out more about how we work</h1>
+          </div>
+
+          <div class="how-we-work">
+            <div><button>HOW WE WORK</button></div>
+          </div>
+        </div>
+
+        
+      </div>
+   
+    </div>
+
+
+  </div>
+  
+  </body>
+  <footer>
+    <div class="footer-content">
+      <div class="logos-icons">
+        <div class="foot-logo-icon">
+        <img src="./images/logo.svg" alt="foot-logo" class="foot-logo-svg">
+      </div>
+<div class="social-icons">
+
+<img src="./images/icon-facebook.svg" alt="fb">
+<img src="./images/icon-twitter.svg" alt="tw">
+<img src="./images/icon-pinterest.svg" alt="pin">
+<img src="./images/icon-instagram.svg" alt="ig">
+
+</div>
+      </div>
+      <hr class="foot-hr">
+      <div class="end">
+
+<div class="our-company item">
+<div><p>OUR COMAPNY</p></div>
+<div class="endlinks">
+  <a href="#">HOW WE WORK</a>
+  <a href="#">WHY INSURE?</a>
+  <a href="#">VIEW PLANS</a>
+  <a href="#">REVIEWS</a>
+
+</div>
+</div>
+<div class="help-me item">
+
+  <div><p>HELP ME</p></div>
+<div class="endlinks">
+  <a href="#">FAQ</a>
+  <a href="#">TERMS OF USE</a>
+  <a href="#">PRIVACY POLICY</a>
+  <a href="#">COOKIES</a>
+
+</div>
+
+</div>
+<div class="contact item">
+
+  <div><p>CONTACT</p></div>
+<div class="endlinks">
+  <a href="#">SALES</a>
+  <a href="#">SUPPORT</a>
+  <a href="#">LIVE CHAT</a>
+ 
+
+</div>
+
+</div>
+<div class="others item">
+
+  <div><p>OTHERS</p></div>
+<div class="endlinks">
+  <a href="#">CAREERS</a>
+  <a href="#">PRESS</a>
+  <a href="#">LICENSES</a>
+  
+
+</div>
+
+</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+
+   let hamenu =  document.querySelector(".hamenu")
+   let resnavbtn = document.querySelector(".resnavbtn")
+function hamburger(){
+console.log(1);
+
+console.log(hamenu.style.transform);
+
+if(hamenu.style.transform == "translateX(100%)"){
+  console.log("yes");
+   resnavbtn.src = "./images/icon-close.svg" 
+ hamenu.style.transform = "translateX(0%)"
+}
+
+
+else  if(hamenu.style.transform == "translateX(0%)"){
+  resnavbtn.src = "./images/icon-hamburger.svg" 
+  hamenu.style.transform = "translateX(100%)"
+ }
+}
+
+  </script>
+</html>
